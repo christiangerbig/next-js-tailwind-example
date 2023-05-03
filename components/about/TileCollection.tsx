@@ -23,17 +23,17 @@ const TileCollection = (): JSX.Element => {
   return (
     <div
       className={`
-        mx-auto
+        mx-5
         mb-40
         mt-24
         grid
         h-full
-        w-full
-        max-w-[60.7081rem]
         grid-flow-row
-        grid-cols-3
+        grid-cols-2
         gap-6
         md:grid-cols-4
+        lg:mx-auto
+        lg:max-w-[60.7081rem]
       `}
     >
       <TileHeadline headline={headlineTile.text} />

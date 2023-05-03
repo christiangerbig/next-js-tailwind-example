@@ -22,11 +22,11 @@ const CarousselElement = ({
         />
       </div>
       <div className="mt-8 flex items-center justify-center text-white">
-        <div className="font-roboto-regular-900 text-[2.0625rem] leading-[2.3125rem] tracking-normal">
-          <span>{subtext1}</span>
+        <div className="font-roboto-regular-900 text-[1.4rem] leading-[2.3125rem] tracking-normal lg:text-[2.0625rem]">
+          <span className="whitespace-nowrap">{subtext1}</span>
         </div>
-        <div className="ml-4 text-[2.0625rem] italic tracking-normal opacity-100">
-          <span>{subtext2}</span>
+        <div className="ml-4 text-[1.4rem] italic tracking-normal opacity-100 lg:text-[2.0625rem]">
+          <span className="whitespace-nowrap">{subtext2}</span>
         </div>
       </div>
     </div>

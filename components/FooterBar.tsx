@@ -42,15 +42,22 @@ const FooterBar = (): JSX.Element => {
             justify-center
             text-left
             font-roboto-regular-900
-            text-[2.5625rem]
+            text-[1.4rem]
             leading-[2.1875rem]
             tracking-[0.5125rem]
             opacity-100
+            lg:text-[2.5625rem]
           `}
         >
-          <FontAwesomeIcon icon={faStairs} className="logo-lg mr-4" />
+          <FontAwesomeIcon
+            icon={faStairs}
+            className="logo-md mr-4 lg:logo-lg"
+          />
           <span className="whitespace-nowrap">{title}</span>
-          <FontAwesomeIcon icon={faStairs} className="logo-lg ml-2" />
+          <FontAwesomeIcon
+            icon={faStairs}
+            className="logo-md ml-2 lg:logo-lg"
+          />
         </div>
       </div>
     </footer>

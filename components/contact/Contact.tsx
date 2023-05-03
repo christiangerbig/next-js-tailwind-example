@@ -14,7 +14,7 @@ const Contact = (): JSX.Element => {
   } = translations[locale as Locale];
 
   return (
-    <div className="mb-52 mt-60 w-full max-w-[85rem]">
+    <div className="mb-25 mt-60 w-full lg:mb-52 lg:max-w-[85rem]">
       <header
         className={`
           mb-0
@@ -25,20 +25,21 @@ const Contact = (): JSX.Element => {
           text-white
         `}
       >
-        <FontAwesomeIcon icon={faStar} className="logo-md mr-4" />
         <div
           className={`
             flex 
             items-center 
             justify-center  
             font-roboto-bold 
-            text-[3.0625rem] 
+            text-[1.9rem] 
             leading-[3.375rem] 
-            tracking-[0.6125rem]
+            tracking-[0.6125rem] 
+            lg:text-[3.0625rem]
           `}
         >
+          <FontAwesomeIcon icon={faStar} className="logo-sm mr-4 lg:logo-md" />
           <h1>{headline}</h1>
-          <FontAwesomeIcon icon={faStar} className="logo-md ml-2" />
+          <FontAwesomeIcon icon={faStar} className="logo-sm ml-2 lg:logo-md" />
         </div>
       </header>
       <ThumbnailCardCollection />

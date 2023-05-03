@@ -20,7 +20,7 @@ const translation = {
             text: "A STRONG TEAM",
           },
           employeesTile: {
-            amount: "100",
+            amount: "80",
             description: "employees",
           },
           brandingsTile: {
@@ -47,7 +47,7 @@ const translation = {
         caroussel: {
           element1: {
             subtext: "John Doe Managing Director",
-            text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et.",
+            text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna.",
           },
         },
         managingDirectors: {

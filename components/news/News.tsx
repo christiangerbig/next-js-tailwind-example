@@ -18,8 +18,8 @@ const News = (): JSX.Element => {
         mt-[13rem]
         w-full
         max-w-[85rem]
-        rounded-[3.125rem]
         bg-topaz
+        lg:rounded-[3.125rem]
       `}
     >
       <header
@@ -38,14 +38,15 @@ const News = (): JSX.Element => {
             items-center 
             justify-center 
             font-roboto-bold 
-            text-[3.0625rem] 
+            text-[1.9rem] 
             leading-[3.375rem] 
-            tracking-[0.6125rem]
+            tracking-[0.6125rem] 
+            lg:text-[3.0625rem]
           `}
         >
-          <FontAwesomeIcon icon={faStar} className="logo-md mr-4" />
+          <FontAwesomeIcon icon={faStar} className="logo-sm mr-4 lg:logo-md" />
           <h1>{texts.headline}</h1>
-          <FontAwesomeIcon icon={faStar} className="logo-md ml-2" />
+          <FontAwesomeIcon icon={faStar} className="logo-sm ml-2 lg:logo-md" />
         </div>
       </header>
       <ThumbnailCardCollection />
@@ -53,15 +54,19 @@ const News = (): JSX.Element => {
         <button
           type="button"
           className={`
-            rounded-full
+            rounded-[1rem]
             bg-white
-            px-16
-            py-4
+            px-8
+            py-2
             font-roboto-regular-900
-            text-[2.0625rem]
+            text-[1.1rem]
             leading-[2.5rem]
             tracking-[0.3463rem]
             text-topaz
+            lg:rounded-full
+            lg:px-16
+            lg:py-4
+            lg:text-[2.0625rem]
           `}
         >
           {button.text}

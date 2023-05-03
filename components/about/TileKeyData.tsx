@@ -27,11 +27,12 @@ const TileKeyData = ({
         <span
           className={`
             font-roboto-regular-900
-            text-[6.375rem]
+            text-[5rem]
             leading-[7.75rem]
             tracking-normal
             text-debian-red
             opacity-100
+            lg:text-[6.375rem]
           `}
         >
           {amount}
@@ -40,10 +41,11 @@ const TileKeyData = ({
           className={`
             w-20
             font-roboto-bold
-            text-[1.5625rem]
+            text-[1.4rem]
             leading-[1.5625rem]
             tracking-normal
             text-haiti
+            lg:text-[1.5625rem]
           `}
         >
           {description}

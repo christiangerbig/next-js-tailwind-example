@@ -7,15 +7,14 @@ const TileHeadline = ({ headline }: TileHeadlineProps): JSX.Element => {
     <header
       className={`
         col-span-1
-        h-full
-        max-h-[13.8125rem]
-        w-full
-        max-w-[13.8125rem]
         text-left
         font-roboto-bold
-        text-[2.9375rem]
+        text-[2.4rem]
         leading-[3.25rem]
         text-white
+        lg:max-h-[13.8125rem]
+        lg:max-w-[13.8125rem]
+        lg:text-[2.9375rem]
       `}
     >
       <h1>{headline}</h1>

@@ -21,7 +21,7 @@ const translation = {
             text: "EIN STARKES TEAM",
           },
           employeesTile: {
-            amount: "100",
+            amount: "80",
             description: "Mitarbeiter",
           },
           brandingsTile: {

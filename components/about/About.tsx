@@ -23,8 +23,8 @@ const About = (): JSX.Element => {
           mb-0
           w-full
           max-w-[85rem]
-          rounded-t-[2.9375rem]
           bg-debian-red
+          lg:rounded-t-[2.9375rem]
         `}
       >
         <header
@@ -40,17 +40,27 @@ const About = (): JSX.Element => {
           <div
             className={`
               leading-[3.375rem 
+              ml-5 
               flex 
               items-center 
               justify-center 
-              font-roboto-bold 
-              text-[3.0625rem] 
+              font-roboto-bold
+              text-[1.9rem] 
               tracking-[0.6125rem] 
-              opacity-100`}
+              opacity-100
+              lg:ml-0
+              lg:text-[3.0625rem]
+              `}
           >
-            <FontAwesomeIcon icon={faStar} className="logo-md mr-4" />
+            <FontAwesomeIcon
+              icon={faStar}
+              className="logo-sm mr-4 lg:logo-md"
+            />
             <h1>{headline}</h1>
-            <FontAwesomeIcon icon={faStar} className="logo-md ml-2" />
+            <FontAwesomeIcon
+              icon={faStar}
+              className="logo-sm ml-2 mr-4 lg:logo-md"
+            />
           </div>
         </header>
         <div className="w-full max-w-[60.7081rem] md:mx-auto">
@@ -67,13 +77,14 @@ const About = (): JSX.Element => {
               border-white
             `}
           />
+          <hr className="border-dashed text-white" />
         </div>
         <TileCollection />
       </section>
 
       <Caroussel />
 
-      <section className="mb-0 w-full max-w-[85rem] rounded-b-[2.9375rem] bg-debian-red">
+      <section className="mb-0 w-full max-w-[85rem] bg-debian-red lg:rounded-b-[2.9375rem]">
         <div
           className={`
             items-between
@@ -88,13 +99,16 @@ const About = (): JSX.Element => {
         >
           <header
             className={`
+              ml-5
               text-left
               font-roboto-bold
-              text-[2.9375rem]
+              text-[1.9rem]
               leading-[3.25rem]
               tracking-normal
               text-white
               opacity-100
+              lg:ml-0
+              lg:text-[2.9375rem]
             `}
           >
             <h1>{managingDirectors.headline}</h1>

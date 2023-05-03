@@ -33,7 +33,7 @@ const ThumbnailCard = ({
   return (
     <div className="mt-20">
       <div
-        className={`relative z-20 h-[24.8125rem] w-[24.8125rem] ${alignImageContainer(
+        className={`relative z-20 h-[24.8125rem] ${alignImageContainer(
           imagePosition
         )}`}
       >

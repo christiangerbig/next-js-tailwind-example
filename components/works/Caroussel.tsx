@@ -55,13 +55,13 @@ const Caroussel = (): JSX.Element => {
             <button type="button">
               <FontAwesomeIcon
                 icon={faMaximize}
-                className="text-5xl text-white"
+                className="text-3xl text-white lg:text-5xl"
               />
             </button>
             <button type="button">
               <FontAwesomeIcon
                 icon={faGripHorizontal}
-                className="mt-3 text-5xl text-white"
+                className="mt-3 text-3xl text-white lg:text-5xl"
               />
             </button>
           </div>

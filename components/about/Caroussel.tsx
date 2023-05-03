@@ -25,15 +25,14 @@ const Caroussel = (): JSX.Element => {
         flex
         h-full
         w-full
-        max-w-[91.375rem]
         flex-wrap
         items-center
         justify-around
-        rounded-2xl
         bg-white
-        pb-[8.875rem]    
-        pl-20
-        pt-[7.125rem]
+        pb-[8.875rem]
+        pt-[7.125rem]    
+        lg:rounded-2xl
+        lg:pl-20
       `}
     >
       <button type="button" className="py-8">

@@ -38,6 +38,10 @@ module.exports = {
     plugin(({ addComponents }) => {
       addComponents({
         // Custom classes
+        ".logo-sm": {
+          height: "1.5rem",
+          width: "1.5rem",
+        },
         ".logo-md": {
           height: "2.3rem",
           width: "2.3rem",

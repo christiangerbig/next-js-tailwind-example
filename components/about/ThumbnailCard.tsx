@@ -16,8 +16,8 @@ const ThumbnailCard = ({
   subtext,
 }: ThumbnailCardProps): JSX.Element => {
   return (
-    <div className="w-[29.275rem]">
-      <div className="mb-0 h-[29.5rem] w-[29.375rem]">
+    <div className="mx-5 mb-7 lg:mx-0 lg:w-[29.275rem]">
+      <div className="mb-0 h-[29.5rem] ">
         <Image
           src={image}
           alt="thumbnail"
@@ -37,17 +37,18 @@ const ThumbnailCard = ({
             mb-5
             p-1
             font-roboto-bold
-            text-[2.0625rem]
+            text-[1.9rem]
             leading-[2.3125rem]
             tracking-normal
             opacity-100
+            lg:text-[2.0625rem]
           `}
         >
           <h1>{line1}</h1>
           <h1>{line2}</h1>
           <h1>{line3}</h1>
         </header>
-        <div className="mt-0 p-0.5 text-[1.625rem] leading-[2.0625rem]">
+        <div className="mt-0 p-0.5 text-[1.5rem] leading-[2.0625rem] lg:text-[1.625rem]">
           <p>{subtext}</p>
         </div>
       </article>

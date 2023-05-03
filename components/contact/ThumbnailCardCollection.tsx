@@ -8,7 +8,7 @@ const ThumbnailCardCollection = (): JSX.Element => {
   const cardsDataContact = useCardsDataContact();
 
   return (
-    <div className="mx-auto mt-[8.2225rem] w-full max-w-[56rem]">
+    <div className="mx-auto mt-[8.2225rem] w-full lg:max-w-[56rem]">
       {cardsDataContact.map(
         (
           { image, name, description, alignment }: CardsDataContactItem,
