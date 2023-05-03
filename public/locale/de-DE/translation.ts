@@ -2,7 +2,7 @@ const translation = {
   "de-DE": {
     about: {
       texts: {
-        headline: "NextJS & Tailwind CSS",
+        headline: "NextJS & TailwindCSS",
         introduction1: {
           headline1: "LOREM IPSUM",
           headline2: "DOLOR SIT",

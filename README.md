@@ -1,4 +1,4 @@
-# nextJS React app with tailwindCSS
+# NextJS React app with tailwindCSS
 
 ## Description
 
@@ -6,7 +6,7 @@ A small exercise to create a webpage based on a UX/UI template with TailwindCSS.
 
 ### TailwindCSS
 
-For the case if there are more than 5 css style classnames, I suggest that the classnames could be written with template literals, each classname in a separate line to make it easier to read. Here is an example how this code could look like:
+For the case if there are more than 5 css style classnames, the classnames could be written with template literals, each classname in a separate line to make it easier to read. Here is an example how this code looks like:
 
 ```javascript
 <div
@@ -51,9 +51,9 @@ The expression in the template literal remains at its position, but it must be a
 
 ## nextJS router (React nextJS app)
 
-| Path | Component | Behavior                               |
-| ---- | --------- | -------------------------------------- |
-| '/'  | Home      | Show homepage company details and news |
+| Path | Component | Behavior      |
+| ---- | --------- | ------------- |
+| '/'  | Home      | Show homepage |
 
 ## Components
 

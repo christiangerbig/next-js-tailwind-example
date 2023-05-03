@@ -2,7 +2,7 @@ const translation = {
   "en-US": {
     about: {
       texts: {
-        headline: "NextJS & Tailwind CSS",
+        headline: "NextJS & TailwindCSS",
         introduction1: {
           headline1: "LOREM IPSUM",
           headline2: "DOLOR SIT",
@@ -83,7 +83,7 @@ const translation = {
         headline: "NEWS",
         newsElement1: {
           headline: "Lorem ipsum dolor sit amet, consetetur sadipscing",
-          date: "Sepetember, 1st 2021",
+          date: "September, 1st 2021",
           text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         },
         newsElement2: {
@@ -111,7 +111,7 @@ const translation = {
         },
         newsElement6: {
           headline: "Lorem ipsum dolor sit amet, consetetur sadipscing",
-          date: "June, 8th 2022",
+          date: "June, 8th 2021",
           text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.",
         },
       },
