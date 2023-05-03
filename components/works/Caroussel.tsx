@@ -20,7 +20,7 @@ const Caroussel = (): JSX.Element => {
   } = translations[locale as Locale];
 
   return (
-    <div className="mt-[6.0269rem] mb-0">
+    <div className="mb-0 mt-[6.0269rem]">
       <div
         className={`
           flex

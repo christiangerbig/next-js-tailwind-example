@@ -7,6 +7,7 @@ module.exports = {
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    // Custom colors
     colors: {
       haiti: "#171341",
       white: "#FFFFFF",
@@ -26,6 +27,7 @@ module.exports = {
       "roboto-bold": ["Roboto-Bold"],
     },
     extend: {
+      // Custom box shadow
       boxShadow: {
         bottom: "0 7px",
         "bottom-right": "25px 25px 0px",
@@ -35,6 +37,7 @@ module.exports = {
   plugins: [
     plugin(({ addComponents }) => {
       addComponents({
+        // Custom classes
         ".logo-md": {
           height: "2.3rem",
           width: "2.3rem",

@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import ThumbnailCardCollection from "./ThumbnailCardCollection";
 
-const News = () => {
+const News = (): JSX.Element => {
   const { locale } = useRouter();
   const {
     news: { texts, button },
@@ -14,8 +14,8 @@ const News = () => {
   return (
     <div
       className={`
-        mt-[13rem]
         mb-0
+        mt-[13rem]
         w-full
         max-w-[85rem]
         rounded-[3.125rem]
@@ -24,15 +24,25 @@ const News = () => {
     >
       <header
         className={`
-          mt-[7.4638rem]
           mb-0
+          mt-[7.4638rem]
           flex
           items-center
           justify-center
           text-white
         `}
       >
-        <div className="flex items-center justify-center font-roboto-bold text-[3.0625rem] leading-[3.375rem] tracking-[0.6125rem]">
+        <div
+          className={`
+            flex 
+            items-center 
+            justify-center 
+            font-roboto-bold 
+            text-[3.0625rem] 
+            leading-[3.375rem] 
+            tracking-[0.6125rem]
+          `}
+        >
           <FontAwesomeIcon icon={faStar} className="logo-md mr-4" />
           <h1>{texts.headline}</h1>
           <FontAwesomeIcon icon={faStar} className="logo-md ml-2" />

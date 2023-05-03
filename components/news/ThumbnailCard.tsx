@@ -14,7 +14,7 @@ const ThumbnailCard = ({
   text,
 }: ThumbnailCardProps): JSX.Element => {
   return (
-    <div className="mt-12 mb-0 w-[21.625rem] bg-topaz">
+    <div className="mb-0 mt-12 w-[21.625rem] bg-topaz">
       <div className="h-[21.625rem] w-[21.625rem]">
         <Image
           src={image}
@@ -48,8 +48,8 @@ const ThumbnailCard = ({
           </div>
           <div
             className={`
-              mt-6
               mb-0
+              mt-6
               text-[1.4375rem]
               leading-[1.8125rem]
               tracking-normal

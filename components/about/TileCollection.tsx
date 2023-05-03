@@ -24,8 +24,8 @@ const TileCollection = (): JSX.Element => {
     <div
       className={`
         mx-auto
-        mt-24
         mb-40
+        mt-24
         grid
         h-full
         w-full

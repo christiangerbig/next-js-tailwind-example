@@ -14,11 +14,11 @@ const Contact = (): JSX.Element => {
   } = translations[locale as Locale];
 
   return (
-    <div className="mt-60 mb-52 w-full max-w-[85rem]">
+    <div className="mb-52 mt-60 w-full max-w-[85rem]">
       <header
         className={`
-          mt-[7.4638rem]
           mb-0
+          mt-[7.4638rem]
           flex
           items-center
           justify-center
@@ -26,7 +26,17 @@ const Contact = (): JSX.Element => {
         `}
       >
         <FontAwesomeIcon icon={faStar} className="logo-md mr-4" />
-        <div className="flex items-center justify-center  font-roboto-bold text-[3.0625rem] leading-[3.375rem] tracking-[0.6125rem]">
+        <div
+          className={`
+            flex 
+            items-center 
+            justify-center  
+            font-roboto-bold 
+            text-[3.0625rem] 
+            leading-[3.375rem] 
+            tracking-[0.6125rem]
+          `}
+        >
           <h1>{headline}</h1>
           <FontAwesomeIcon icon={faStar} className="logo-md ml-2" />
         </div>

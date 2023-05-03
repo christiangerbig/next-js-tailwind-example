@@ -79,8 +79,8 @@ const ThumbnailCard = ({
           </header>
           <div
             className={` 
-              mt-4
               mb-0
+              mt-4
               h-full
               max-h-[1.875rem]
               w-full

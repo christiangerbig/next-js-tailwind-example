@@ -24,8 +24,8 @@ const FooterBar = (): JSX.Element => {
       </div>
       <div
         className={`
-          mt-[4.54813rem]
           mb-[4.54813rem]
+          mt-[4.54813rem]
           flex
           items-center
           justify-center
@@ -34,9 +34,8 @@ const FooterBar = (): JSX.Element => {
       >
         <div
           className={`
-          flex items-center justify-center 
-            bg-inherit
-            flex
+            bg-inherit 
+            flex 
             h-[5.375rem]
             w-[13.8125rem]
             items-center

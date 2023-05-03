@@ -31,9 +31,9 @@ const Caroussel = (): JSX.Element => {
         justify-around
         rounded-2xl
         bg-white
-        pt-[7.125rem]    
-        pb-[8.875rem]
+        pb-[8.875rem]    
         pl-20
+        pt-[7.125rem]
       `}
     >
       <button type="button" className="py-8">

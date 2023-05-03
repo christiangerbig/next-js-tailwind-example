@@ -10,8 +10,8 @@ const ThumbnailCollection = (): JSX.Element => {
   return (
     <div
       className={`
-        mt-[7.5619rem]
         mb-0
+        mt-[7.5619rem]
         flex
         flex-wrap
         items-start

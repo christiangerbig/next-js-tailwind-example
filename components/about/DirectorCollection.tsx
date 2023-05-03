@@ -10,8 +10,8 @@ const DirectorCollection = (): JSX.Element => {
   return (
     <div
       className={`
-        mt-24
         mb-52
+        mt-24
         flex
         flex-wrap
         items-start

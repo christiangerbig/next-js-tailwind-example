@@ -37,7 +37,17 @@ const About = (): JSX.Element => {
             text-white
           `}
         >
-          <div className="flex items-center justify-center leading-[3.375rem font-roboto-bold text-[3.0625rem] tracking-[0.6125rem] opacity-100">
+          <div
+            className={`
+              leading-[3.375rem 
+              flex 
+              items-center 
+              justify-center 
+              font-roboto-bold 
+              text-[3.0625rem] 
+              tracking-[0.6125rem] 
+              opacity-100`}
+          >
             <FontAwesomeIcon icon={faStar} className="logo-md mr-4" />
             <h1>{headline}</h1>
             <FontAwesomeIcon icon={faStar} className="logo-md ml-2" />

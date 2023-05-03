@@ -11,8 +11,8 @@ const ThumbnailCardCollection = () => {
     <div
       className={`
         mx-auto
-        mt-[6.0706rem]
         mb-24
+        mt-[6.0706rem]
         flex
         w-full
         max-w-[68.5rem]
