@@ -14,9 +14,9 @@ const ThumbnailCard = ({
   image,
   subtitleHeadline: { line1, line2, line3 },
   subtext,
-}: ThumbnailCardProps): JSX.Element => {
+}: ThumbnailCardProps) => {
   return (
-    <div className="mx-5 mb-7 lg:mx-0 lg:w-[29.275rem]">
+    <div className="mx-5 mb-7 md:mx-0 md:w-[29.275rem]">
       <div className="mb-0 h-[29.5rem] ">
         <Image
           src={image}

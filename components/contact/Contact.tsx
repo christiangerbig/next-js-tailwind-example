@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import ThumbnailCardCollection from "./ThumbnailCardCollection";
 
-const Contact = (): JSX.Element => {
+const Contact = () => {
   const { locale } = useRouter();
   const {
     contact: {
@@ -14,7 +14,7 @@ const Contact = (): JSX.Element => {
   } = translations[locale as Locale];
 
   return (
-    <div className="mb-25 mt-60 w-full lg:mb-52 lg:max-w-[85rem]">
+    <div className="mt-20 w-full lg:mb-52 lg:mt-60 lg:max-w-[85rem]">
       <header
         className={`
           mb-0

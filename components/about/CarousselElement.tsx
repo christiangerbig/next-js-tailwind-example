@@ -6,11 +6,7 @@ interface CarousselElementProps {
   subtext: string;
 }
 
-const CarousselElement = ({
-  image,
-  text,
-  subtext,
-}: CarousselElementProps): JSX.Element => {
+const CarousselElement = ({ image, text, subtext }: CarousselElementProps) => {
   return (
     <div className="flex-column flex flex-wrap items-center justify-center">
       <div className="lg:h-[27.375rem] lg:w-[27.375rem]">
@@ -20,10 +16,10 @@ const CarousselElement = ({
           className={`
             h-full
             w-full
-            rounded-[0.9375rem]
             opacity-100
-            shadow-bottom-right
-            shadow-debian-red
+            lg:rounded-[0.9375rem]
+            lg:shadow-bottom-right
+            lg:shadow-debian-red
           `}
         />
       </div>

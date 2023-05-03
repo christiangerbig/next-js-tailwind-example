@@ -4,7 +4,7 @@ import {
 } from "../../custom-hooks/useCardsDataAbout";
 import ThumbnailCard from "./ThumbnailCard";
 
-const ThumbnailCollection = (): JSX.Element => {
+const ThumbnailCollection = () => {
   const cardsDataAbout = useCardsDataAbout();
 
   return (
@@ -30,7 +30,7 @@ const ThumbnailCollection = (): JSX.Element => {
             subtext,
           }: CardsDataAboutItem,
           index
-        ): JSX.Element => {
+        ) => {
           return (
             <ThumbnailCard
               image={image}

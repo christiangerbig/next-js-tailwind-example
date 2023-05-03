@@ -8,7 +8,7 @@ import TileCollection from "./TileCollection";
 import ThumbnailCardCollection from "./ThumbnailCardCollection";
 import DirectorCollection from "./DirectorCollection";
 
-const About = (): JSX.Element => {
+const About = () => {
   const { locale } = useRouter();
   const {
     about: {
@@ -56,7 +56,7 @@ const About = (): JSX.Element => {
               icon={faStar}
               className="logo-sm mr-4 lg:logo-md"
             />
-            <h1>{headline}</h1>
+            <h1 className="text-center">{headline}</h1>
             <FontAwesomeIcon
               icon={faStar}
               className="logo-sm ml-2 mr-4 lg:logo-md"
@@ -111,7 +111,9 @@ const About = (): JSX.Element => {
               lg:text-[2.9375rem]
             `}
           >
-            <h1>{managingDirectors.headline}</h1>
+            <h1 className="text-center lg:text-left">
+              {managingDirectors.headline}
+            </h1>
           </header>
           <DirectorCollection />
         </div>

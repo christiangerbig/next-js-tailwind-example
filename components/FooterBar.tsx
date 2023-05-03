@@ -4,7 +4,7 @@ import translations from "../public/locale/translations";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStairs } from "@fortawesome/free-solid-svg-icons";
 
-const FooterBar = (): JSX.Element => {
+const FooterBar = () => {
   const { locale } = useRouter();
   const {
     footer: {
@@ -24,12 +24,14 @@ const FooterBar = (): JSX.Element => {
       </div>
       <div
         className={`
-          mb-[4.54813rem]
-          mt-[4.54813rem]
+          mb-10
+          mt-8
           flex
           items-center
           justify-center
           text-haiti
+          lg:mb-[4.54813rem]
+          lg:mt-[4.54813rem]
         `}
       >
         <div
@@ -42,22 +44,14 @@ const FooterBar = (): JSX.Element => {
             justify-center
             text-left
             font-roboto-regular-900
-            text-[1.4rem]
+            text-[1.6rem]
             leading-[2.1875rem]
             tracking-[0.5125rem]
             opacity-100
             lg:text-[2.5625rem]
           `}
         >
-          <FontAwesomeIcon
-            icon={faStairs}
-            className="logo-md mr-4 lg:logo-lg"
-          />
           <span className="whitespace-nowrap">{title}</span>
-          <FontAwesomeIcon
-            icon={faStairs}
-            className="logo-md ml-2 lg:logo-lg"
-          />
         </div>
       </div>
     </footer>

@@ -6,10 +6,7 @@ interface TileKeyDataDoubleProps {
   description: string;
 }
 
-const TileKeyDataDouble = ({
-  amount,
-  description,
-}: TileKeyDataDoubleProps): JSX.Element => {
+const TileKeyDataDouble = ({ amount, description }: TileKeyDataDoubleProps) => {
   return (
     <div
       className={`
@@ -17,12 +14,13 @@ const TileKeyDataDouble = ({
         flex
         h-full
         w-full
+
         items-center
         justify-around
         rounded-2xl
         bg-white
         p-8
-        lg:max-h-[13.8125rem]
+        md:max-h-[13.8125rem]
         lg:max-w-[29.375rem]
       `}
     >

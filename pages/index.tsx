@@ -4,7 +4,7 @@ import News from "../components/news/News";
 import Works from "../components/works/Works";
 import FooterBar from "../components/FooterBar";
 
-const Home = (): JSX.Element => {
+const Home = () => {
   return (
     <>
       <div className="flex flex-col items-center justify-center bg-haiti">

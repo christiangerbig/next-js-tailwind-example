@@ -4,7 +4,7 @@ import {
 } from "../../custom-hooks/useCardsDataDirectors";
 import DirectorCard from "./DirectorCard";
 
-const DirectorCollection = (): JSX.Element => {
+const DirectorCollection = () => {
   const cardsDataDirectors = useCardsDataDirectors();
 
   return (
@@ -20,10 +20,7 @@ const DirectorCollection = (): JSX.Element => {
       `}
     >
       {cardsDataDirectors.map(
-        (
-          { image, name, description }: CardsDataDirectorsItem,
-          index
-        ): JSX.Element => {
+        ({ image, name, description }: CardsDataDirectorsItem, index) => {
           return (
             <DirectorCard
               image={image}

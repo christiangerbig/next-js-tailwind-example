@@ -3,10 +3,7 @@ interface TileKeyDataProps {
   description: string;
 }
 
-const TileKeyData = ({
-  amount,
-  description,
-}: TileKeyDataProps): JSX.Element => {
+const TileKeyData = ({ amount, description }: TileKeyDataProps) => {
   return (
     <div
       className={`

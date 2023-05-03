@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import ThumbnailCardCollection from "./ThumbnailCardCollection";
 
-const News = (): JSX.Element => {
+const News = () => {
   const { locale } = useRouter();
   const {
     news: { texts, button },
@@ -50,14 +50,14 @@ const News = (): JSX.Element => {
         </div>
       </header>
       <ThumbnailCardCollection />
-      <div className="relative -bottom-9 flex items-center justify-center">
+      <div className="relative -bottom-7 flex items-center justify-center lg:-bottom-9">
         <button
           type="button"
           className={`
-            rounded-[1rem]
+            rounded-[0.3rem]
             bg-white
             px-8
-            py-2
+            py-1
             font-roboto-regular-900
             text-[1.1rem]
             leading-[2.5rem]

@@ -6,14 +6,10 @@ interface DirectorCardProps {
   description: string;
 }
 
-const DirectorCard = ({
-  image,
-  name,
-  description,
-}: DirectorCardProps): JSX.Element => {
+const DirectorCard = ({ image, name, description }: DirectorCardProps) => {
   return (
     <div className="mb-10 flex flex-col items-center justify-center lg:mb-0">
-      <div className="mb-0 lg:h-[17.3125rem] ">
+      <div className="mb-0 h-[16.5rem] lg:h-[17.3125rem] ">
         <Image
           src={image}
           alt="managing director"

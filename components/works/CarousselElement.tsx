@@ -11,7 +11,7 @@ interface CarousselElementProps {
 const CarousselElement = ({
   image,
   subtext: { subtext1, subtext2 },
-}: CarousselElementProps): JSX.Element => {
+}: CarousselElementProps) => {
   return (
     <div className="mb-0 w-full max-w-[75.875rem]">
       <div className="mb-0 h-[41.6875rem] rounded-[2.0625rem]">

@@ -6,7 +6,7 @@ import ArrowRightSolid from "../helpers/ArrowRightSolid";
 import CarousselElement from "./CarousselElement";
 import businessPartner from "../../public/images/Businessportrait1.jpg";
 
-const Caroussel = (): JSX.Element => {
+const Caroussel = () => {
   const { locale } = useRouter();
   const {
     about: {
@@ -39,7 +39,7 @@ const Caroussel = (): JSX.Element => {
         <ArrowLeftSolid />
       </button>
       <CarousselElement image={businessPartner} subtext={subtext} text={text} />
-      <button type="button" className="py-16">
+      <button type="button" className="py-1 lg:py-16">
         <ArrowRightSolid />
       </button>
     </div>

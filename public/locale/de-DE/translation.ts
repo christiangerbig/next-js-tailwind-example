@@ -48,7 +48,7 @@ const translation = {
         caroussel: {
           element1: {
             subtext: "John Doe Geschäftsführer",
-            text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et.",
+            text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
           },
         },
         managingDirectors: {

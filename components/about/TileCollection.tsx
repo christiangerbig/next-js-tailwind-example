@@ -9,7 +9,7 @@ import TileHeadline from "./TileHeadline";
 import TileKeyData from "./TileKeyData";
 import TileKeyDataDouble from "./TileKeyDataDouble";
 
-const TileCollection = (): JSX.Element => {
+const TileCollection = () => {
   const { locale } = useRouter();
   const {
     about: {
@@ -31,23 +31,23 @@ const TileCollection = (): JSX.Element => {
         grid-flow-row
         grid-cols-2
         gap-6
-        md:grid-cols-4
-        lg:mx-auto
+        md:mx-auto
+        md:max-w-[28.7081rem]
+        lg:mx-28
         lg:max-w-[60.7081rem]
+        lg:grid-cols-4
       `}
     >
       <TileHeadline headline={headlineTile.text} />
-      {tilesKeyData.map(
-        ({ amount, description }: TilesKeyDataItem, index): JSX.Element => {
-          return (
-            <TileKeyData
-              amount={amount}
-              description={description}
-              key={`${description}${index.toString()}`}
-            />
-          );
-        }
-      )}
+      {tilesKeyData.map(({ amount, description }: TilesKeyDataItem, index) => {
+        return (
+          <TileKeyData
+            amount={amount}
+            description={description}
+            key={`${description}${index.toString()}`}
+          />
+        );
+      })}
       <TileKeyDataDouble
         amount={mediaVolumeTile.amount}
         description={mediaVolumeTile.description}

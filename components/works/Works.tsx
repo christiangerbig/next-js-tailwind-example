@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-solid-svg-icons";
 import Caroussel from "./Caroussel";
 
-const Works = (): JSX.Element => {
+const Works = () => {
   const { locale } = useRouter();
   const {
     works: {

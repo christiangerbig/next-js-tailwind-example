@@ -12,7 +12,6 @@ const ThumbnailCardCollection = () => {
       className={`
         mx-auto
         mb-24
-        mt-[6.0706rem]
         flex
         w-full
         max-w-[68.5rem]
@@ -20,14 +19,12 @@ const ThumbnailCardCollection = () => {
         items-start
         justify-center
         md:justify-around
+        lg:mt-[6.0706rem]
         lg:justify-between
       `}
     >
       {cardsDataNews.map(
-        (
-          { image, headline, date, text }: CardsDataNewsItem,
-          index
-        ): JSX.Element => {
+        ({ image, headline, date, text }: CardsDataNewsItem, index) => {
           return (
             <ThumbnailCard
               image={image}

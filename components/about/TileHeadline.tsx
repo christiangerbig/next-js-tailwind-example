@@ -2,7 +2,7 @@ interface TileHeadlineProps {
   headline: string;
 }
 
-const TileHeadline = ({ headline }: TileHeadlineProps): JSX.Element => {
+const TileHeadline = ({ headline }: TileHeadlineProps) => {
   return (
     <header
       className={`

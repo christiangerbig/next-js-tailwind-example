@@ -9,7 +9,7 @@ import ArrowLeft from "../helpers/ArrowLeft";
 import ArrowRight from "../helpers/ArrowRight";
 import CarousselElement from "./CarousselElement";
 
-const Caroussel = (): JSX.Element => {
+const Caroussel = () => {
   const { locale } = useRouter();
   const {
     works: {

@@ -16,7 +16,7 @@ const ThumbnailCard = ({
   name,
   description,
   alignment: { imagePosition, textContainerPosition, textPosition },
-}: ThumbnailCardProps): JSX.Element => {
+}: ThumbnailCardProps) => {
   // Styles functions
   const alignImageContainer = (position: string): string => {
     return position === "left" ? "mr-auto" : "ml-auto";
@@ -31,31 +31,31 @@ const ThumbnailCard = ({
   };
 
   return (
-    <div className="mt-20">
+    <div className="lg:mt-20">
       <div
-        className={`relative z-20 h-[24.8125rem] ${alignImageContainer(
+        className={`relative z-20 h-[24.8125rem] md:w-[23rem] lg:w-[29.375rem] ${alignImageContainer(
           imagePosition
         )}`}
       >
         <Image
           src={image}
           alt="portrait"
-          className="h-full w-full rounded-[1.1875rem]"
+          className="h-full w-full lg:rounded-[1.1875rem]"
         />
       </div>
       <div
         className={`
           relative
           z-10
-          -mt-[22.3rem]
           mr-0
           flex
           h-[22.3rem]
-          rounded-[1.1875rem]
           border
           border-smokey-grey
           bg-white
           px-[8rem]
+          md:-mt-[22.3rem]
+          lg:rounded-[1.1875rem]
           ${alignTextContainer(textContainerPosition)}
         `}
       >

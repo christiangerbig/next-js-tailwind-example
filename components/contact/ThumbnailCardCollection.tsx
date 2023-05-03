@@ -4,16 +4,16 @@ import {
 } from "../../custom-hooks/useCardsDataContact";
 import ThumbnailCard from "./ThumbnailCard";
 
-const ThumbnailCardCollection = (): JSX.Element => {
+const ThumbnailCardCollection = () => {
   const cardsDataContact = useCardsDataContact();
 
   return (
-    <div className="mx-auto mt-[8.2225rem] w-full lg:max-w-[56rem]">
+    <div className="mx-auto mt-14 mt-[8.2225rem] lg:w-full lg:max-w-[56rem]">
       {cardsDataContact.map(
         (
           { image, name, description, alignment }: CardsDataContactItem,
           index
-        ): JSX.Element => {
+        ) => {
           return (
             <ThumbnailCard
               image={image}

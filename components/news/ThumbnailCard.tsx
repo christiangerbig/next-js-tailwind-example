@@ -7,12 +7,7 @@ interface ThumbnailCardProps {
   text: string;
 }
 
-const ThumbnailCard = ({
-  image,
-  headline,
-  date,
-  text,
-}: ThumbnailCardProps): JSX.Element => {
+const ThumbnailCard = ({ image, headline, date, text }: ThumbnailCardProps) => {
   return (
     <div className="mb-0 mt-12 w-[21.625rem] bg-topaz">
       <div className="h-[21.625rem] w-[21.625rem]">
