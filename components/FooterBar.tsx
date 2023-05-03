@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { Locale } from "../typeDefinitions";
 import translations from "../public/locale/translations";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faStairs } from "@fortawesome/free-solid-svg-icons";
 
 const FooterBar = (): JSX.Element => {
   const { locale } = useRouter();
@@ -32,12 +32,9 @@ const FooterBar = (): JSX.Element => {
           text-haiti
         `}
       >
-        <FontAwesomeIcon
-          icon={faLocationDot}
-          className="mx-5 h-[5.9094rem] w-[4.8731rem]"
-        />
         <div
           className={`
+          flex items-center justify-center 
             bg-inherit
             flex
             h-[5.375rem]
@@ -52,7 +49,9 @@ const FooterBar = (): JSX.Element => {
             opacity-100
           `}
         >
-          <span>{title}</span>
+          <FontAwesomeIcon icon={faStairs} className="logo-lg mr-4" />
+          <span className="whitespace-nowrap">{title}</span>
+          <FontAwesomeIcon icon={faStairs} className="logo-lg ml-2" />
         </div>
       </div>
     </footer>

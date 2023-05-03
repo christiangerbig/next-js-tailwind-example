@@ -2,67 +2,67 @@ const translation = {
   "de-DE": {
     about: {
       texts: {
-        headline: "ÜBER UNS",
+        headline: "NextJS & Tailwind CSS",
         introduction1: {
-          headline1: "WE CREATE",
-          headline2: "PEOPLE‐DRIVEN",
-          headline3: "BRANDS.",
-          text: "Bei uns stehen die Menschen im Mittelpunkt. Ihre Träume, Wünsche und Bedürfnisse. Aus ihnen entwickeln wir relevante Versprechen. So entstehen aus Produkten faszinierende Marken. Und nachhaltig erfolgreiche Geschäftsmodelle.",
+          headline1: "LOREM IPSUM",
+          headline2: "DOLOR SIT",
+          headline3: "AMET.",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam.",
         },
         introduction2: {
-          headline1: "UNABHÄNGIG.",
-          headline2: "INHABERGEFÜHRT.",
-          headline3: "UND STOLZ DARAUF.",
-          text: "Wir zählen zu den erfolgreichsten inhabergeführten Agenturen Deutschlands. Seit mehr als 30 Jahren entwickeln wir erfolgreiche Marken und Kommunikation. Wir denken nicht in Quartalen. Wir denken langfristig und nachhaltig. Für die Marken, die wir betreuen. Und unsere Kundenbeziehungen. Wir verstehen uns als Partner. Am liebsten auf Augenhöhe.",
+          headline1: "LOREM IPSUM",
+          headline2: "DOLOR SIT",
+          headline3: "AMET.",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         },
+
         pahnkeGroup: {
           headlineTile: {
-            text: "DIE PAHNKE GROUP",
+            text: "EIN STARKES TEAM",
           },
           employeesTile: {
-            amount: "240",
+            amount: "100",
             description: "Mitarbeiter",
           },
           brandingsTile: {
-            amount: "50",
+            amount: "20",
             description: "Betreute Marken",
           },
           locationsTile: {
-            amount: "2",
+            amount: "5",
             description: "Standorte",
           },
           countriesTile: {
-            amount: "40",
+            amount: "10",
             description: "Betrteute Länder",
           },
           experienceTile: {
-            amount: "31",
+            amount: "15",
             description: "Jahre Erfahrung",
           },
           mediaVolumeTile: {
-            amount: "300",
+            amount: "100",
             description: "Millionen Euro Media-Volumen",
           },
         },
         caroussel: {
           element1: {
-            subtext:
-              "Lars Lammers & Joakim Nägele Geschäftsführer Pahnke Group",
-            text: "Moderne Kommunikation wird immer komplexer. In der Pahnke Group bedienen wir alle Disziplinen aus einer Hand. Für integrierte Markenerlebnisse über alle Kanäle und Touchpoints.",
+            subtext: "John Doe Geschäftsführer",
+            text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et.",
           },
         },
         managingDirectors: {
           headline: "GESCHÄFTSFÜHRUNG",
           member1: {
-            name: "LARS LAMMERS",
+            name: "JOHN DOE",
             description: "Geschäftsführender Gesellschafter",
           },
           member2: {
-            name: "MARTIN PAHNKE",
+            name: "PETER SMITH",
             description: "Geschäftsführender Gesellschafter",
           },
           member3: {
-            name: "JOAKIM NÄGEL",
+            name: "ALFRED MESSMANN",
             description: "Geschäftsführer",
           },
         },
@@ -73,8 +73,8 @@ const translation = {
         headline: "ARBEITEN",
         caroussel: {
           element1: {
-            subtext1: "DOUBLE SIZE",
-            subtext2: "für NicNacs",
+            subtext1: "LOREM IPSUM",
+            subtext2: "dolor sit",
           },
         },
       },
@@ -83,61 +83,63 @@ const translation = {
       texts: {
         headline: "NEWS",
         newsElement1: {
-          headline: "Neue, kreative Kampagne für yfood mit Frederick Lau",
-          date: "10. Juni 2022",
-          text: "Fortsetzung der Zusammenarbeit mit yfood. Mit der Kampagne „Change of Habits“ rückt das Münchner StartUp „Smart Food“ ins Rampenlicht.",
+          headline: "Lorem ipsum dolor sit amet, consetetur sadipscing",
+          date: "1. Sepetember 2021",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         },
         newsElement2: {
-          headline: "SPD Bremen setzt auf die PAHNKE Group und ASK.Berlin",
-          date: "16. Mai 2022",
-          text: "Nach dem Wahlsieg ist vor dem Wahlkampf: Nach der SPD Mecklenburg-Vorpommern entscheidet sich ein weiterer SPD-Landesverband für die Zusammenarbeit mit der PAHNKE Group.",
+          headline:
+            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
+          date: "6. Juni 2021",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.",
         },
         newsElement3: {
-          headline:
-            "Starker Auftritt für die neue, vereinte Plattform Endstation Rechts",
-          date: "24. Februar 2022",
-          text: "PUSHH führt ca. 25.000 Artikel und Datensätze aus den vorherigen Plattformen und Archiven zusammen. Die neue ENDSTATION RECHTS.-Plattform ist übersichtlich strukturiert und sorgt mit einer klaren Designsprache dafür, dass Zusammenhänge schnell nachvollzogen und verstanden werden.",
+          headline: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr",
+          date: "4. August 2021",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.",
         },
         newsElement4: {
-          headline: "Pullover Films legt mit yfood und Frederick Lau nach",
-          date: "6. Januar 2022",
-          text: "Es geht Schlag auf Schlag: Mit dem Münchner StartUp yfood realisierte PULLOVER Films innerhalb weniger Wochen bereits die zweite, spektakuläre Kampagne seit der Gründung im September 2021. yFood “Anders schmeckt […]",
+          headline:
+            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
+          date: "6. Januar 2021",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. […]",
         },
         newsElement5: {
-          headline: "Mit der SPD Niedersachsen ins Wahljahr 2022",
+          headline:
+            "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam",
           date: "9. Dezember 2021",
-          text: "Nach dem Wahlsieg ist vor dem Wahlkampf: Nach der SPD Mecklenburg-Vorpommern entscheidet sich ein weiterer SPD-Landesverband für die Zusammenarbeit mit der PAHNKE Group.",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores.",
         },
         newsElement6: {
-          headline: "Neue, kreative Kampagne für",
-          date: "10. Juni 2022",
-          text: "Fortsetzung der Zusammenarbeit mit yfood. Mit der Kampagne „Change of Habits“ rückt das Münchner StartUp „Smart Food“ ins Rampenlicht.",
+          headline: "Lorem ipsum dolor sit amet, consetetur sadipscing",
+          date: "8. Juni 2021",
+          text: "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.",
         },
       },
       button: {
-        text: "MEHR NEWS",
+        text: "MEHR INFOS",
       },
     },
     contact: {
       texts: {
         headline: "KONTAKT",
         contact1: {
-          name: "Valentin Ostwald",
-          description: "Manager Marketing and Growth",
+          name: "John Doe",
+          description: "Manager Marketing",
         },
         contact2: {
-          name: "Mari Cekic",
-          description: "Director People & Organisation",
+          name: "Helen Smith",
+          description: "Director Human Resources",
         },
         contact3: {
-          name: "Stefan Westendorp",
-          description: "Head of Media Relations +49 40 248212 300",
+          name: "Peter Smith",
+          description: "Director Social Media",
         },
       },
     },
     footer: {
       texts: {
-        title: "PAHNKE GROUP",
+        title: "EIN STARKES TEAM",
       },
     },
   },

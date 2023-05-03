@@ -35,11 +35,13 @@ module.exports = {
   plugins: [
     plugin(({ addComponents }) => {
       addComponents({
-        ".logo": {
-          "margin-left": "1.75rem",
-          "margin-right": "1.75rem",
-          height: "5.2756rem",
-          width: "4.3506rem",
+        ".logo-md": {
+          height: "2.3rem",
+          width: "2.3rem",
+        },
+        ".logo-lg": {
+          height: "3.3rem",
+          width: "3.3rem",
         },
       });
     }),

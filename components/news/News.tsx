@@ -2,7 +2,7 @@ import { useRouter } from "next/router";
 import { Locale } from "../../typeDefinitions";
 import translations from "../../public/locale/translations";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 import ThumbnailCardCollection from "./ThumbnailCardCollection";
 
 const News = () => {
@@ -32,9 +32,10 @@ const News = () => {
           text-white
         `}
       >
-        <FontAwesomeIcon icon={faLocationDot} className="logo" />
-        <div className="font-roboto-bold text-[3.0625rem] leading-[3.375rem] tracking-[0.6125rem]">
+        <div className="flex items-center justify-center font-roboto-bold text-[3.0625rem] leading-[3.375rem] tracking-[0.6125rem]">
+          <FontAwesomeIcon icon={faStar} className="logo-md mr-4" />
           <h1>{texts.headline}</h1>
+          <FontAwesomeIcon icon={faStar} className="logo-md ml-2" />
         </div>
       </header>
       <ThumbnailCardCollection />

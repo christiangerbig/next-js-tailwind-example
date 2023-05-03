@@ -1,7 +1,7 @@
 import { useRouter } from "next/router";
 import { Locale } from "../../typeDefinitions";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faLocationDot } from "@fortawesome/free-solid-svg-icons";
+import { faStar } from "@fortawesome/free-solid-svg-icons";
 import translations from "../../public/locale/translations";
 import Caroussel from "./Caroussel";
 import TileCollection from "./TileCollection";
@@ -37,9 +37,10 @@ const About = (): JSX.Element => {
             text-white
           `}
         >
-          <FontAwesomeIcon icon={faLocationDot} className="logo" />
-          <div className="leading-[3.375rem font-roboto-bold text-[3.0625rem] tracking-[0.6125rem] opacity-100">
+          <div className="flex items-center justify-center leading-[3.375rem font-roboto-bold text-[3.0625rem] tracking-[0.6125rem] opacity-100">
+            <FontAwesomeIcon icon={faStar} className="logo-md mr-4" />
             <h1>{headline}</h1>
+            <FontAwesomeIcon icon={faStar} className="logo-md ml-2" />
           </div>
         </header>
         <div className="w-full max-w-[60.7081rem] md:mx-auto">
