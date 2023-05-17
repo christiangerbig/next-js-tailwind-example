@@ -11,13 +11,13 @@ For the case if there are more than 5 css style classnames, the classnames could
 ```javascript
 <div
   className={`
-  text-left
-  font-roboto-bold
-  text-[2.9375rem]
-  leading-[3.25rem]
-  tracking-normal
-  text-white
-  opacity-100
+    text-left
+    font-roboto-bold
+    text-[2.9375rem]
+    leading-[3.25rem]
+    tracking-normal
+    text-white
+    opacity-100
   `}
 >
 ```
@@ -29,18 +29,18 @@ This syntax also works with function calls as expressions withing the classes:
 ```javascript
 <div
   className={`
-  relative
-  z-10
-  -mt-[22.3rem]
-  mr-0
-  flex
-  h-[22.3rem]
-  rounded-[1.1875rem]
-  border
-  border-smokey-grey
-  bg-white
-  px-[8rem]
-  ${alignTextContainer(textContainerPosition)}
+    relative
+    z-10
+    -mt-[22.3rem]
+    mr-0
+    flex
+    h-[22.3rem]
+    rounded-[1.1875rem]
+    border
+    border-smokey-grey
+    bg-white
+    px-[8rem]
+    ${alignTextContainer(textContainerPosition)}
   `}
 >
 ```
