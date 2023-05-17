@@ -33,18 +33,26 @@ const ThumbnailCard = ({
   return (
     <div className="lg:mt-20">
       <div
-        className={`relative z-20 h-[24.8125rem] md:w-[23rem] lg:w-[29.375rem] ${alignImageContainer(
-          imagePosition
-        )}`}
+        className={`
+          md:w-[23rem] 
+          lg:w-[28rem] 
+          md:h-[23rem] 
+          lg:h-[28rem] 
+          relative 
+          z-20 
+          ${alignImageContainer(imagePosition)}
+        `}
       >
         <Image
           src={image}
           alt="portrait"
-          className="h-full w-full lg:rounded-[1.1875rem]"
+          className="lg:rounded-[1.1875rem] h-full w-full"
         />
       </div>
       <div
         className={`
+          md:-mt-[22.3rem]
+          lg:rounded-[1.1875rem]
           relative
           z-10
           mr-0
@@ -54,8 +62,6 @@ const ThumbnailCard = ({
           border-smokey-grey
           bg-white
           px-[8rem]
-          md:-mt-[22.3rem]
-          lg:rounded-[1.1875rem]
           ${alignTextContainer(textContainerPosition)}
         `}
       >
