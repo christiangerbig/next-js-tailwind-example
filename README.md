@@ -22,7 +22,7 @@ For the case if there are more than 5 css style classnames, the classnames could
 >
 ```
 
-With this syntax it is still guaranteed that the Prettier Code plugin for TailwindCSS can sort the classes.
+With this syntax it is still guaranteed that [prettier-plugin-tailwindcss](https://www.npmjs.com/package/prettier-plugin-tailwindcss) can sort the classes.
 
 This syntax also works with function calls as expressions withing the classes:
 
